@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-websockets
+
+server:
+  port: ${PORT:8080}
+
+logging:
+  level:
+    com.ps.tutorial: DEBUG
+  file: ${user.home}/test/${spring.application.name}/logs.log
